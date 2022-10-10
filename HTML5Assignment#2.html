@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p class="p1">Hello from Aashay and Pritam</p>
+    </div>
+    <button onclick="changeTextColor()">Change Text Color</button>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+    <script>
+        function changeTextColor(){
+            document.querySelector("p.p1").style.color="yellow";
+
+        }
+        function changeBackgroundColor(){
+            document.querySelector("p.p1").style.background="red";
+        }
+    </script>
+</body>
+</html>

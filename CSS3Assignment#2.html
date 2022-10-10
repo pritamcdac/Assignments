@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        td{
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center">Registration Form</h2>
+    <form action="">
+    <table style="border: solid 2px;">
+        <tr>
+            <td>Employee ID: </td>
+            <td><input name="EmpId" type="number" placeholder="Employeed ID"></td>
+        </tr>
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" name="Name" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text" name="Name" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td>Department :</td>
+            <td>
+                <input type="radio" name="1">IT <br>
+                <input type="radio" name="1">HR <br>
+                <input type="radio" name="1">Finance <br>
+                <input type="radio" name="1">Admin 
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Joining : </td>
+            <td><input type="date" placeholder="mm/dd/yyyy"></td>
+        </tr>
+        <tr>
+            <td>Email : </td>
+            <td><input type="email" placeholder="Email"></td>
+        </tr>
+        <tr>
+            <td>Contact No: </td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td>Address : </td>
+            <td><textarea name="address" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Training Programs to be Attended : </td>
+            <td>
+                <input type="checkbox" >Web Basics<br>
+                <input type="checkbox" >C#<br>
+                <input type="checkbox" >Entity Framework<br>
+                <input type="checkbox" >ASP.NET MVC</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Register">
+                <input type="reset" value="Cancel">
+            </td>
+        </tr>
+
+
+    </table>
+    </form>
+</body>
+</html>
